@@ -1,30 +1,51 @@
 # Full Stack Development Internship
 
-**Name:** Yashvi Vasani  
-**University:** Darshan University
+Welcome to my Full Stack Development Internship repository at **BeeSkilled**. This repository contains the projects, practical tasks, and learning outcomes completed during my internship.
 
-**GitHub Profile:** https://github.com/Yashvi7789  
-**Repository:** https://github.com/Yashvi7789/Full-Stack-Internship-at-BeeSkilled
+## Student Information
 
-## Week 1 Projects
+- **Name:** Yashvi Vasani
+- **University:** Darshan University
+- **GitHub:** [Yashvi7789](https://github.com/Yashvi7789)
 
-### 1. Portfolio Website
-Created a personal portfolio using HTML and CSS to showcase my skills and work.
+## Week 1 – Frontend Development
 
-### 2. React Components
-Practised creating reusable React components and understanding their working.
+Completed three projects focused on learning frontend development and React fundamentals.
 
-### 3. React Blog Website
-Built a simple blog website with features like adding posts, searching and filtering blogs.
+| Project | Description | Technologies |
+|---|---|---|
+| Portfolio Website | Personal website showcasing my profile, skills, education, and projects. | HTML, CSS |
+| React Practice | Practised reusable components and component-based development. | React, JavaScript, CSS |
+| React Blog Website | Blog application with features to add, search, filter, and view blog posts. | React, JavaScript, CSS |
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- React
+**Key Learnings:**
+- HTML and CSS fundamentals
+- JavaScript and React basics
+- Reusable React components
+- Props, state, and form handling
+- Dynamic content rendering
+- Frontend project organization
 
-## What I Learned
+## Repository Structure
 
-I practised building web pages, creating reusable components, managing data and handling user interactions.
+```text
+Full-Stack-Internship-at-BeeSkilled/
+│
+├── WEEK-1/
+│   ├── README.md
+│   ├── react-blog/
+│   ├── react-practice/
+│   └── yashvi-portfolio/
+│
+├── WEEK-2/
+│   └── TO-DO-api/
+│
+└── README.md
+```
 
-**Week 1 – Completed**
+## About This Repository
+
+This repository documents my practical learning journey throughout the internship. Each week's folder contains its projects and individual documentation.
+
+**Internship Organization:** BeeSkilled  
+**Learning Track:** Full Stack Development
