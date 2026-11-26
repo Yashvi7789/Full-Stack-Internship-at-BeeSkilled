@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "description": "Learn how React works and why developers use it to build modern websites.",
+    "author": "Yashvi",
+    "category": "React",
+    "date": "Nov 20, 2026",
+    "readTime": "3 min read",
+    "content": "React is a popular JavaScript library used to build user interfaces. It helps developers create reusable components and manage application data.\n\nReact applications are built using components. Each component represents a small part of the user interface, such as a header, button, or card.\n\nReact makes web development easier by allowing developers to reuse code and update the user interface efficiently."
+  },
+  {
+    "id": 2,
+    "title": "JavaScript for Beginners",
+    "description": "Discover the basics of JavaScript and learn how it makes websites interactive.",
+    "author": "Yashvi",
+    "category": "JavaScript",
+    "date": "Nov 21, 2026",
+    "readTime": "4 min read",
+    "content": "JavaScript is a programming language used to make websites interactive. It can respond to button clicks, validate forms, and update page content.\n\nJavaScript supports variables, functions, conditions, loops, and objects.\n\nFor example, we can use JavaScript to display a message when a user clicks a button. It is an important technology for frontend and backend development."
+  },
+  {
+    "id": 3,
+    "title": "Why CSS is Important",
+    "description": "Understand how CSS makes websites beautiful, responsive, and user-friendly.",
+    "author": "Yashvi",
+    "category": "CSS",
+    "date": "Nov 22, 2026",
+    "readTime": "3 min read",
+    "content": "CSS stands for Cascading Style Sheets. It is used to design and style HTML elements.\n\nWith CSS, we can change colors, fonts, spacing, backgrounds, and layouts. We can also create animations and responsive designs.\n\nCSS makes websites attractive and improves the user experience on different screen sizes."
+  },
+  {
+    "id": 4,
+    "title": "HTML Basics for Web Development",
+    "description": "Learn how HTML provides the basic structure of every web page.",
+    "author": "Yashvi",
+    "category": "HTML",
+    "date": "Nov 23, 2026",
+    "readTime": "3 min read",
+    "content": "HTML stands for HyperText Markup Language. It is used to create the structure of web pages.\n\nHTML uses elements and tags such as headings, paragraphs, images, links, and lists.\n\nA basic HTML document contains a doctype declaration, html, head, and body elements. HTML provides the foundation for frontend development."
+  },
+  {
+    "id": 5,
+    "title": "Understanding React Components",
+    "description": "Explore reusable React components and understand how they organize an application.",
+    "author": "Yashvi",
+    "category": "React",
+    "date": "Nov 24, 2026",
+    "readTime": "4 min read",
+    "content": "Components are the building blocks of a React application. They allow developers to divide a large user interface into smaller and reusable parts.\n\nA component can be created using a JavaScript function that returns JSX.\n\nFor example, a website can have separate Header, Footer, Navbar, and BlogCard components. Reusing components makes code easier to maintain."
+  },
+  {
+    "id": 6,
+    "title": "Introduction to Responsive Design",
+    "description": "Learn how to make websites work properly on mobile phones, tablets, and desktops.",
+    "author": "Yashvi",
+    "category": "CSS",
+    "date": "Nov 25, 2026",
+    "readTime": "4 min read",
+    "content": "Responsive web design means creating websites that adjust to different screen sizes.\n\nCSS media queries, flexible layouts, Grid, and Flexbox help developers build responsive websites.\n\nA responsive website provides a better experience because users can access it easily on mobile phones, tablets, and desktop computers."
+  },
+  {
+    "id": 7,
+    "title": "Introduction to Full Stack Development",
+    "description": "Understand frontend, backend, and database technologies used to build complete web applications.",
+    "author": "Yashvi",
+    "category": "Technology",
+    "date": "Nov 26, 2026",
+    "readTime": "5 min read",
+    "content": "Full stack development involves building both the frontend and backend of a web application.\n\nThe frontend is the part users see and interact with. HTML, CSS, JavaScript, and React are commonly used for frontend development.\n\nThe backend handles application logic, authentication, and data processing. Technologies such as Node.js, Express, and databases like MySQL and MongoDB are commonly used.\n\nA full stack developer understands how these parts work together to create a complete application."
+  }
+]

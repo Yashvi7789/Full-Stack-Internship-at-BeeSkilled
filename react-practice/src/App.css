@@ -1,0 +1,340 @@
+
+/* Main layout */
+#root {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  color: #6c4ce8;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #6c4ce8;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 85px 20px;
+  background: linear-gradient(135deg, #eeeaff, #f8f7ff);
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e2d9ff;
+  color: #6c4ce8;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #202033;
+  margin: 20px 0 12px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: auto;
+  color: #686879;
+  line-height: 1.7;
+}
+
+/* Counter */
+.counter-section {
+  text-align: center;
+  padding: 55px 20px;
+}
+
+.counter-section h2,
+.students-section h2,
+.form-section h2 {
+  font-size: 30px;
+  color: #202033;
+  margin-bottom: 12px;
+}
+
+.counter-box {
+  max-width: 450px;
+  margin: 25px auto 0;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #e9e6f5;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.counter-box h3 {
+  font-size: 48px;
+  color: #6c4ce8;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: #6c4ce8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5536ca;
+}
+
+.btn-secondary {
+  background: #e9e5ff;
+  color: #5536ca;
+}
+
+.btn-secondary:hover {
+  background: #dcd4ff;
+}
+
+.btn-outline {
+  background: white;
+  color: #6c4ce8;
+  border: 1px solid #6c4ce8;
+}
+
+.btn-outline:hover {
+  background: #f4f0ff;
+}
+
+/* Student cards */
+.students-section {
+  padding: 60px 20px;
+  background: #f8f8fc;
+  text-align: center;
+}
+
+.section-description {
+  color: #77778a;
+  margin: 10px auto 30px;
+  line-height: 1.6;
+}
+
+.student-grid {
+  max-width: 1050px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.student-card {
+  background: white;
+  padding: 30px 20px;
+  border: 1px solid #eceaf4;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+  transition: 0.25s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 25px rgba(80, 60, 150, 0.12);
+}
+
+.avatar {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+  display: grid;
+  place-items: center;
+  background: #eeeaff;
+  color: #6c4ce8;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.student-card h3 {
+  color: #222;
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.student-card p {
+  color: #77778a;
+  margin: 7px 0;
+  font-size: 14px;
+}
+
+.student-role {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 7px 12px;
+  background: #f0edff;
+  color: #6c4ce8;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Form */
+.form-section {
+  padding: 65px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto 0;
+  padding: 30px;
+  text-align: left;
+  background: white;
+  border: 1px solid #eceaf4;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-form input:focus {
+  border-color: #6c4ce8;
+  box-shadow: 0 0 0 3px rgba(108, 76, 232, 0.1);
+}
+
+.contact-form button {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.form-message {
+  margin-top: 15px;
+  color: #23834c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  padding: 25px 20px;
+  background: #202033;
+  color: #d5d5e2;
+  text-align: center;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .student-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .student-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 60px 18px;
+  }
+
+  .hero h1 {
+    font-size: 27px;
+  }
+
+  .counter-box {
+    padding: 22px 15px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+}
